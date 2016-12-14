@@ -12,5 +12,5 @@ var Person = require('./person');
 // var Todo = require('./todo');
 
 // export the models so they can be used elsewhere
-exports.Person = Person;
-// exports.Todo = Todo;
+module.exports.Person = Person;
+// module.exports.Todo = Todo;

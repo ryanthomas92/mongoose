@@ -2,7 +2,7 @@
 var express = require('express'),
     app = express(),
     bodyParser = require('body-parser'),
-    db = require('./models');
+    db = require('./models'); //Bringing in database code
 
 // configure bodyParser (for receiving form data)
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -48,12 +48,12 @@ app.get('/api/todos/:id', function show(req, res) {
 
 // update todo
 app.put('/api/todos/:id', function update(req, res) {
-  
+
 });
 
 // delete todo
 app.delete('/api/todos/:id', function destroy(req, res) {
-  
+
 });
 
 

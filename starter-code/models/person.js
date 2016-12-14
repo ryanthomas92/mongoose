@@ -12,4 +12,4 @@ var personSchema = new Schema({
 
 var Person = mongoose.model('Person', personSchema);
 
-module.exports = Person;
+module.exports = Person;   //makes Person available outside of database
